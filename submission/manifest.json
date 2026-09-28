@@ -55,23 +55,23 @@
     {
       "file": "r1_craft/annotations.xml",
       "lines": 182,
-      "sha256": "151e752bb55a377e83505cf0267f912b0e5a7d6c4d511fecb56641fda242931b"
+      "sha256": "b975859c89e61b19c83884ff73543e3c9994b94ead2bbd781170512b418c603d"
     },
     {
       "file": "r1_craft/lock.txt",
-      "lines": 19,
-      "sha256": "492cf5ca977141966fc3b103a289b7c8081be19012d120c7f0b5eb42391e642f",
-      "locked_at": "2026-09-28T17:54:40+07:00"
+      "lines": 29,
+      "sha256": "588987b602848344f39a552ac9f88204a943a620dad97ccae61eb138b1344075",
+      "locked_at": "2026-09-28T18:41:19+07:00"
     },
     {
       "file": "r1_craft/selfqc.md",
-      "lines": 22,
-      "sha256": "c2688edd58262b7be5721dfe1416c0a99dd1cf7d85a10a1907548269fc10f38c"
+      "lines": 27,
+      "sha256": "aff9da2ee402375be6b16420721fe750b19cadefa9b39dab393783d27561f5c9"
     },
     {
       "file": "r1_craft/reference.txt",
       "lines": 3,
-      "sha256": "c2a60a2b4c217e0b07c7411d7090c607a59e6cd5ec978d6fd33206c357d2e3a7",
+      "sha256": "f7bc42ecb04e2ff7acf08b7a8ddafeeac6a946394b8c8e421785f7c29554a813",
       "lock_before_reveal": true
     },
     {
@@ -87,7 +87,7 @@
     {
       "file": "r2_qa/qa_review.md",
       "lines": 11,
-      "sha256": "e5fb6c64cb04fb7a607d23ddf6072786162a6f06808c15034bce30cc3e2b52e6"
+      "sha256": "8a89ba1c899893a8beff338812fc6a5ef5bfc8206d7bc1b9788c6a6a2310b85b"
     },
     {
       "file": "r2_qa/qa_overlay.html",
@@ -97,12 +97,12 @@
     {
       "file": "r3_diag/local_quality.md",
       "lines": 49,
-      "sha256": "1530b764da712ceccc316e0e4a8d969b73b980434c9842bff6ef7b67aff65420"
+      "sha256": "d07d1371e15ee0db7f66232d74af5f061c7c17190dbb89bc49a2ba1513e058ef"
     },
     {
       "file": "r3_diag/local_quality.json",
       "lines": 221,
-      "sha256": "f55d47f43c5243ea2e31058c02915d91a5fa8957624f072db94eaf1754154520"
+      "sha256": "e0efc5cbf7d9449ddbc8c510c184478d5adfb7655c986ab836d517e81ccff8d7"
     },
     {
       "file": "r3_diag/local_quality_conflicts.csv",
@@ -132,18 +132,18 @@
     {
       "file": "rework/annotations-v2.xml",
       "lines": 182,
-      "sha256": "151e752bb55a377e83505cf0267f912b0e5a7d6c4d511fecb56641fda242931b"
+      "sha256": "b975859c89e61b19c83884ff73543e3c9994b94ead2bbd781170512b418c603d"
     },
     {
       "file": "rework/lock2.txt",
-      "lines": 19,
-      "sha256": "a5550f256caf5301ddbf9a8a66bac4b8bd742704f6d097ddfb22c9f613d61998",
-      "locked_at": "2026-09-28T17:56:02+07:00"
+      "lines": 29,
+      "sha256": "50908fa5736775771a4add29f14315461fcf4976b065b2796a9b25267167274e",
+      "locked_at": "2026-09-28T18:42:52+07:00"
     },
     {
       "file": "rework/delta.md",
-      "lines": 11,
-      "sha256": "09e33e8a893b8038d2a5d050f6756434054811bbfb97d8ce1b034bed01653bf3"
+      "lines": 14,
+      "sha256": "48f906b61ac475032b678fe680a0e269232ecd17a46bb4103b9f338ca01fb9de"
     },
     {
       "file": "findings.csv",

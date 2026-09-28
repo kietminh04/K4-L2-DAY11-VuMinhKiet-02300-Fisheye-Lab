@@ -19,4 +19,9 @@
 - [x] Tên task raw_fisheye và export CVAT 1.1
 
 ## Fill ratio (K12)
-chưa vẽ polygon K12 (degrade)
+- adasind_062370.jpg box 4 edge: 0.740
+- adasind_069450.jpg box 6 edge: 0.846
+- adasind_117120.jpg box 4 mid: 0.623
+- adasind_117120.jpg box 5 center: 0.822
+mean edge: 0.793 (n=2)
+mean center: 0.822 (n=1)

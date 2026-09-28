@@ -1,6 +1,6 @@
 # QA review · B2-dense
 
-Mã khóa: 151E-752B
+Mã khóa: B975-859C
 
 | frame | object_ref | rule_id | nhận xét |
 |---|---|---|---|
