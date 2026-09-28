@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+D01,2026-09-28,Có gán nhãn vạch sơn xa hàng rào bãi đỗ vào parking_line không?,Không gán nhãn,Vạch xa là phân định luồng giao thông nội bộ không phải chia stall ô đỗ riêng lẻ,approved
+D02,2026-09-28,Xử lý vùng nắp ca-pô xe ego ở mép dưới đáy ảnh fisheye như thế nào?,Gán ignore_region với reason=ego_body,Thân xe ego là nhiễu nội tại của rig camera không thuộc đối tượng ngoại cảnh,approved
+D03,2026-09-28,Quy tắc gắn cờ edge_zone khi vật thể nằm nửa trong nửa ngoài vùng thấu kính?,Gán edge_zone=true nếu tâm hình học vượt quá 75% bán kính thấu kính,Đảm bảo model nhận biết vùng suy giảm quang học và biến dạng phi tuyến,approved
+D04,2026-09-28,Xử lý vật thể xe máy chở hàng cồng kềnh vượt khung xe máy tiêu chuẩn?,Escalate lên hội đồng chuyên môn và cập nhật guideline v1.1.0,Hiện tại taxonomy chưa phân định rõ ranh giới hàng hóa gắn trên xe máy hai bánh,escalated

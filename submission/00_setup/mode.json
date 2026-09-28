@@ -1,0 +1,21 @@
+{
+  "members": [
+    "2A202602300"
+  ],
+  "assignments": {
+    "2A202602300": "B2-dense"
+  },
+  "self": "2A202602300",
+  "slice": "B2-dense",
+  "degrade": [],
+  "current_slice": "B2-dense",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": [
+    "adasind_062370.jpg:1",
+    "adasind_062370.jpg:2",
+    "adasind_062370.jpg:3",
+    "adasind_062370.jpg:4",
+    "adasind_062370.jpg:5"
+  ]
+}

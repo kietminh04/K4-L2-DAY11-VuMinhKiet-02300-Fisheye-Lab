@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,35,Chói sáng mặt trời trực diện và bóng đổ xe phía trước,Giám sát dòng phương tiện lưu thông chuẩn ở tiền cảnh hướng di chuyển chính
+front,hard,25,Vật thể cắt đầu đột ngột ở rìa thấu kính méo quang học và người đi bộ bị che khuất một phần,Đảm bảo an toàn phanh khẩn cấp và nhận diện vật thể ở vùng méo cực đại góc rộng
+rear,normal,30,Phương tiện bám đuôi cự ly gần và ánh sáng đèn pha rọi ban đêm,Theo dõi dòng giao thông phía sau phục vụ chuyển làn và duy trì khoảng cách an toàn
+rear,hard,25,Vật cản thấp và trẻ em trong điểm mù sát thanh cản sau xe khi lùi,Đảm bảo an toàn hỗ trợ đỗ xe tự động và cảnh báo va chạm lùi ở góc đáy camera
+left,normal,25,Biến dạng quang học kéo giãn phương tiện lưu thông song hành bên trái,Định vị phương tiện trong luồng giao thông bên sườn trái phục vụ giám sát điểm mù
+left,hard,20,Xe máy luồn lách sát thân xe tại vùng chồng lấn (seam) giữa camera trước và trái,Kiểm chứng độ chính xác khi ghép ảnh SVM 360 và chống phân mảnh bounding box tại seam
+right,normal,20,Bóng đổ cây cối và vạch mép đường vỉa hè phức tạp ở bên phụ,Hỗ trợ căn lề khi cập lề đường và đỗ xe song song chuẩn xác
+right,hard,20,Xe ba bánh và người đi bộ tràn từ vỉa hè vào điểm mù sườn phải góc khuất,Nâng cao năng lực phát hiện vật thể phi cấu trúc tại các vị trí che khuất góc nhìn phụ

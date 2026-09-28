@@ -1,1 +1,30 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+r1_craft,B2-dense,adasind_062370.jpg,L2,L_only,BOX_GEOMETRY,E1_annotator_error,P2,annotator,R_BOX_TIGHT,Box xe máy cần ôm khít bánh trước và tay lái,rework,v1.0,Tự soát bản craft r1
+r1_craft,B2-dense,adasind_069450.jpg,L1,L_only,ATTRIBUTE,E2_guideline_gap,P2,guideline,R_ATTRIB_OCCLUDED,Xe ô tô bị che khuất một phần bởi phương tiện phía trước,keep_with_reason,v1.0,Tự soát bản craft r1
+r1_craft,B2-dense,adasind_117120.jpg,L1,L_only,IGNORE_SCOPE,E1_annotator_error,P1,annotator,R_IGNORE_EGO,Ranh giới ignore_region bao trọn thân xe ego ở đáy ảnh,rework,v1.0,Tự soát bản craft r1
+r2_qa,B2-dense,adasind_062370.jpg,L1,L_only,BOX_GEOMETRY,,P2,qa,R_BOX_TIGHT,Kiểm tra biên độ viền box phương tiện sát mép,keep_with_reason,v1.0,QA blind review
+r2_qa,B2-dense,adasind_069450.jpg,L2,L_only,ATTRIBUTE,,P2,qa,R_ATTRIB_EDGE,Xác nhận cờ edge_zone trên vật thể nằm ở rìa thấu kính,keep_with_reason,v1.0,QA blind review
+r2_qa,B2-dense,adasind_117120.jpg,L2,L_only,WRONG_CLASS,,P1,qa,R_CLASS_3W,Đối chiếu phân loại ThreeWheeler vs Car,keep_with_reason,v1.0,QA blind review
+r3_diag,B2-dense,adasind_062370.jpg,L1+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Vật thể góc rộng hoặc xa ngoài tầm nhận diện tối ưu của model,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_062370.jpg,L5+R5,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Vật thể góc rộng hoặc xa ngoài tầm nhận diện tối ưu của model,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_062370.jpg,L6+R6,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Vật thể góc rộng hoặc xa ngoài tầm nhận diện tối ưu của model,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_062370.jpg,L7+R7,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Vật thể góc rộng hoặc xa ngoài tầm nhận diện tối ưu của model,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_062370.jpg,L8+R8,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Vật thể góc rộng hoặc xa ngoài tầm nhận diện tối ưu của model,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_062370.jpg,M3,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_062370.jpg,M4,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_062370.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_062370.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_062370.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_069450.jpg,L1+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Vật thể góc rộng hoặc xa ngoài tầm nhận diện tối ưu của model,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_069450.jpg,L2+R2,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Vật thể góc rộng hoặc xa ngoài tầm nhận diện tối ưu của model,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_069450.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_069450.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_117120.jpg,L2+R2,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Vật thể góc rộng hoặc xa ngoài tầm nhận diện tối ưu của model,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_117120.jpg,L4+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Vật thể góc rộng hoặc xa ngoài tầm nhận diện tối ưu của model,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_117120.jpg,M1,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_117120.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_117120.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_117120.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_117120.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
+r3_diag,B2-dense,adasind_062370.jpg,L2+R2+M2,LRM,BOX_GEOMETRY,E4_model_domain,P3,ai_team,R_BOX_TIGHT,"Cả 3 bên đều khớp xe máy trung tâm, sai lệch IoU nhỏ",keep_with_reason,v1.0,Đồng thuận LRM center
+r3_diag,B2-dense,adasind_069450.jpg,L3+R3+M3,LRM,ATTRIBUTE,E4_model_domain,P3,ai_team,R_ATTRIB_EDGE,"Đồng thuận 3 bên về ô tô trung tâm, kiểm tra attribute",keep_with_reason,v1.0,Đồng thuận LRM center
