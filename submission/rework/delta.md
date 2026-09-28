@@ -2,7 +2,7 @@
 
 | zone | matched before | matched after | missing before | missing after | spurious before | spurious after |
 |---|---:|---:|---:|---:|---:|---:|
-| center | 13 | 13 | 0 | 0 | 0 | 0 |
+| center | 12 | 12 | 1 | 1 | 1 | 1 |
 | mid | 5 | 5 | 0 | 0 | 0 | 0 |
 | edge | 2 | 2 | 0 | 0 | 0 | 0 |
 

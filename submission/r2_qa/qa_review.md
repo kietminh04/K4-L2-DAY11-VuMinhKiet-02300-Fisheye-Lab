@@ -1,6 +1,6 @@
 # QA review · B2-dense
 
-Mã khóa: 5DF8-9977
+Mã khóa: 151E-752B
 
 | frame | object_ref | rule_id | nhận xét |
 |---|---|---|---|

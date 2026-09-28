@@ -1,1 +1,4 @@
 frame,type,left,reference,left_label,reference_label,iou
+adasind_062370.jpg,mismatching_attributes,3,9,Bike,Bike,1.000
+adasind_062370.jpg,extra_annotation,6,,ThreeWheeler,,N/A
+adasind_062370.jpg,missing_annotation,,7,,ThreeWheeler,N/A

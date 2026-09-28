@@ -1,9 +1,11 @@
 # Tự soát
 
-- adasind_062370.jpg: Đã kiểm tra ego_body và lens_border
-- adasind_069450.jpg: Đã kiểm tra ego_body và lens_border
-- adasind_117120.jpg: Đã kiểm tra ego_body và lens_border
-- Tên task: Day11 · ADASIND · B2-dense · raw_fisheye
+- adasind_062370.jpg L9: truncated khác dự kiến
+- adasind_069450.jpg L1: chiều cao < H (xem lại phạm vi)
+- adasind_117120.jpg L2: chiều cao < H (xem lại phạm vi)
+- adasind_117120.jpg L3: chiều cao < H (xem lại phạm vi)
+- adasind_117120.jpg L7: chiều cao < H (xem lại phạm vi)
+- adasind_117120.jpg L9: chiều cao < H (xem lại phạm vi)
 
 ## Checklist thủ công
 - [x] Phạm vi H=40 và vật cần vẽ

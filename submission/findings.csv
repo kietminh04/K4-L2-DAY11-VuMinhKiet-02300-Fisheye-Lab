@@ -28,3 +28,16 @@ r3_diag,B2-dense,adasind_117120.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_tea
 r3_diag,B2-dense,adasind_117120.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Model phát hiện nhầm bóng phản chiếu hoặc chi tiết hậu cảnh thành box,keep_with_reason,v1.0,
 r3_diag,B2-dense,adasind_062370.jpg,L2+R2+M2,LRM,BOX_GEOMETRY,E4_model_domain,P3,ai_team,R_BOX_TIGHT,"Cả 3 bên đều khớp xe máy trung tâm, sai lệch IoU nhỏ",keep_with_reason,v1.0,Đồng thuận LRM center
 r3_diag,B2-dense,adasind_069450.jpg,L3+R3+M3,LRM,ATTRIBUTE,E4_model_domain,P3,ai_team,R_ATTRIB_EDGE,"Đồng thuận 3 bên về ô tô trung tâm, kiểm tra attribute",keep_with_reason,v1.0,Đồng thuận LRM center
+r1_craft,B2-dense,adasind_062370.jpg,L9+R1,na,ATTRIBUTE,E1_annotator_error,P2,annotator,R_BOX_TIGHT,,rework,,
+r1_craft,B2-dense,adasind_062370.jpg,L6,na,SPURIOUS,E1_annotator_error,P2,annotator,R_BOX_TIGHT,,rework,,
+r1_craft,B2-dense,adasind_062370.jpg,R7,na,MISSING,E1_annotator_error,P2,annotator,R_BOX_TIGHT,,rework,,
+r3_diag,B2-dense,adasind_062370.jpg,L2+R6,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Sai lệch giữa mô hình và ground truth trên không gian thấu kính fisheye,keep_with_reason,,
+r3_diag,B2-dense,adasind_062370.jpg,L7+R8,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Sai lệch giữa mô hình và ground truth trên không gian thấu kính fisheye,keep_with_reason,,
+r3_diag,B2-dense,adasind_062370.jpg,L8+R5,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Sai lệch giữa mô hình và ground truth trên không gian thấu kính fisheye,keep_with_reason,,
+r3_diag,B2-dense,adasind_062370.jpg,L9+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Sai lệch giữa mô hình và ground truth trên không gian thấu kính fisheye,keep_with_reason,,
+r3_diag,B2-dense,adasind_062370.jpg,L6,L_only,SPURIOUS,E4_model_domain,P2,ai_team,R_MODEL_FP,Sai lệch giữa mô hình và ground truth trên không gian thấu kính fisheye,keep_with_reason,,
+r3_diag,B2-dense,adasind_062370.jpg,R7,R_only,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Sai lệch giữa mô hình và ground truth trên không gian thấu kính fisheye,keep_with_reason,,
+r3_diag,B2-dense,adasind_069450.jpg,L4+R2,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Sai lệch giữa mô hình và ground truth trên không gian thấu kính fisheye,keep_with_reason,,
+r3_diag,B2-dense,adasind_069450.jpg,L5+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Sai lệch giữa mô hình và ground truth trên không gian thấu kính fisheye,keep_with_reason,,
+r3_diag,B2-dense,adasind_117120.jpg,L3+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Sai lệch giữa mô hình và ground truth trên không gian thấu kính fisheye,keep_with_reason,,
+r3_diag,B2-dense,adasind_117120.jpg,L5+R2,LR_noM,MISSING,E4_model_domain,P2,ai_team,R_MODEL_FN,Sai lệch giữa mô hình và ground truth trên không gian thấu kính fisheye,keep_with_reason,,

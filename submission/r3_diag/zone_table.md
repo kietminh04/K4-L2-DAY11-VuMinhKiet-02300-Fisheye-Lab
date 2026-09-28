@@ -4,8 +4,8 @@ Lệnh `python3 lab11.py model` tự ghi bảng số (cùng cách đếm với `
 
 | Zone | n_ref | L missing | L spurious | M missing (`LR_noM` + `R_only`) | M thừa (`LM_noR` + `M_only`) | Lỗi L chính (`what`) |
 |---|---:|---:|---:|---:|---:|---|
-| center | 13 | 0 | 0 | 6 | 7 | — |
-| mid | 5 | 0 | 0 | 2 | 3 | — |
+| center | 13 | 1 | 1 | 6 | 7 | SPURIOUS (1) |
+| mid | 5 | 0 | 0 | 2 | 3 | ATTRIBUTE (1) |
 | edge | 2 | 0 | 0 | 1 | 2 | — |
 
 ## Nhận xét
