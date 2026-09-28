@@ -10,11 +10,16 @@
     </task>
   </meta>
   <image id="0" name="parking-lot-core.jpg" width="960" height="720">
-    <polyline label="parking_line" source="manual" occluded="0" points="408.5,652.0;528.0,719.0" z_order="0">
-    </polyline>
-    <polyline label="parking_line" source="manual" occluded="0" points="750.5,635.0;958.0,685.0" z_order="0">
-    </polyline>
-    <polygon label="free_space" source="manual" occluded="0" points="100.0,580.0;900.0,580.0;920.0,630.0;80.0,630.0" z_order="0">
-    </polygon>
+    <polyline label="parking_line" source="manual" occluded="0" points="408.5,652.0;528.0,719.0" z_order="0"/>
+    <polyline label="parking_line" source="manual" occluded="0" points="700.9,625.1;958.0,685.0" z_order="0"/>
+    <polygon label="free_space" source="manual" occluded="0" points="2.0,576.0;960.0,523.4;960.0,589.3;1.7,681.6" z_order="0"/>
+    <polyline label="parking_line" source="manual" occluded="0" points="28.7,683.7;27.5,717.0" z_order="0"/>
+    <polyline label="parking_line" source="manual" occluded="0" points="918.3,596.5;960.0,602.0" z_order="0"/>
+    <polyline label="parking_line" source="manual" occluded="0" points="65.2,500.3;49.2,570.2" z_order="0"/>
+    <polyline label="parking_line" source="manual" occluded="0" points="175.3,524.1;249.5,561.3" z_order="0"/>
+    <polyline label="parking_line" source="manual" occluded="0" points="287.4,519.1;416.1,551.4" z_order="0"/>
+    <polyline label="parking_line" source="manual" occluded="0" points="386.6,513.2;579.7,546.4" z_order="0"/>
+    <polyline label="parking_line" source="manual" occluded="0" points="548.4,509.4;827.7,528.5" z_order="0"/>
+    <polyline label="parking_line" source="manual" occluded="0" points="479.6,511.7;709.9,536.9" z_order="0"/>
   </image>
 </annotations>

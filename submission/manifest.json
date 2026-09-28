@@ -17,13 +17,13 @@
     },
     {
       "file": "parking/annotations.xml",
-      "lines": 20,
-      "sha256": "4c6c411873bab9b5b5d16b133c4389c2c9fce6d7e46ca11c7892b9d7f96994ff"
+      "lines": 25,
+      "sha256": "dbfc8e99300707db81b4b2106dccbaaf0246475b3e266d97a396f939fbd4dac7"
     },
     {
       "file": "parking/observations.md",
       "lines": 11,
-      "sha256": "83a3739b08353489bf1f427f7f58a5b2b37b9d4c7d218924ea4f69dd3b9a656a"
+      "sha256": "8350ae9196b842bfcd725007128b48dd9d13bb3db3f9b23ca1725d81da398f4d"
     },
     {
       "file": "p1_calib/annotations.xml",
